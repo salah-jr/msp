@@ -1,0 +1,64 @@
+body{
+  background: url('../images/body.jpg') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
+  height:auto;
+}
+
+/*Navbar*/
+.navbar{background-color: rgba(82,78,78,0); border: 0}
+.navbar-brand {font-size: 25px; margin-top: 10px}
+.navbar-inverse .navbar-brand {color: #ddd}
+.navbar-inverse .navbar-brand:hover {color: #2794be}
+.navbar-inverse .navbar-nav > li > a {margin-top: 10px; font-size: 15px ; color: #ddd}
+.navbar-inverse .navbar-nav > li > a:hover {color: #2794be}
+.navbar-inverse .dropdown-toggle img {width: 40px; border-radius: 50px;}
+
+/*Content*/
+.content{margin-top: 220px;}
+.content .lead {padding: 0 130px; margin-bottom: 50px; color: #ddd}
+.content .btn {width: 250px; border-radius: 100px; background-color: rgba(82,78,78,0); margin-bottom: 50px}
+.content .btn:hover {background-color: #2794be}
+
+/*Sign_in / Sign_up*/
+.modal-header {padding:15px 50px; background-color: #ebeeff }
+.modal-header .close {margin-top: 10px}
+.modal-body {padding:40px 50px;}
+.modal-body input {margin-top: 10px}
+.modal-body button {border-radius: 50px}
+.modal-body a {border-radius: 50px}
+
+/*pf_content*/
+.profile {margin-top: 50px; color: #ddd; background-color: rgba(82,78,78,0.8); margin-bottom: 30px ; padding-bottom: 30px}
+.profile div {height: auto ; margin-top: 20px;}
+.profile .col-lg-3 {margin-top: 30px ;padding-bottom:20px}
+.profile .pr_img {border-bottom: 1px solid #77024d;}
+.profile .pr_img img {width: 160px;}
+.profile .pr_img h3 {color: #000}
+.profile .list {font-size: 20px; }
+.profile .list ul {padding-left: 0}
+.profile .list ul li {list-style: none;margin-top: 8px; color: #000}
+.profile .list ul li:hover {background-color:grey;}
+.profile .list ul a {text-decoration:none;}
+.profile .pf_content .about_me {margin-bottom: 20px; height: 100px; background-color: #fff8d2; margin-right: 20px; border-radius: 10px}
+.profile .pf_content .badges {margin-bottom: 20px; height: 150px; background-color: #fff8d2; margin-right: 20px; border-radius: 10px}
+.profile .pf_content .progress {margin-right: 20px; background-color: #fff8d2; border-radius: 10px}
+.profile .pf_content .col-lg-3 {border-right: 0;}
+.profile .pf_content .progress img {width: 90px; opacity: 0.7}
+.profile .pf_content span {display: block; margin-top: 7px; color: #000}
+.profile .pf_content .top {background-color: rgba(87,78,78,0.05); border-radius: 10px}
+.profile .pf_content .top ul {padding-left: 0; padding:10px 0}
+.profile .pf_content .top ul li {list-style:number; color: #000; margin-bottom: 5px; padding-top: 5px;}
+
+/*contact_us*/
+.contact-us {margin-top: 150px; color: #ddd}
+.contact-us input {background-color: rgba(87,78,78,0.8); border: 0 ; margin-bottom: 20px; margin-top: 10px; color: #ddd}
+.contact-us textarea {background-color: rgba(87,78,78,0.8); border: 0}
+
+/*admin*/
+.admin {width: 500px; margin-top: 200px; margin-left:300px; background-color: rgba(62,12,34,0.9); padding: 20px; border-radius: 20px}
+.admin h1 {color: #ddd; margin-bottom: 25px}
+.admin div {margin-top: 15px}
+.admin .btn {width: 200px; margin-left: 120px; background-color: #f5fac8 ; border: 0; color: #000; margin-top: 10px; margin-bottom: 10px}
