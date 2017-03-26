@@ -2,7 +2,7 @@
 require ('../core/init.php');
 require ('../libraries/Database.php');
 require ('../libraries/User.php');
-require ('../helpers/system_helper.php');
+//require ('../helpers/system_helper.php');
 
 
   if (isset($_POST['do_login'])) {
@@ -13,7 +13,7 @@ require ('../helpers/system_helper.php');
     if($user->login($username, $password)){
       header("Location: ../profile.php", true);
     }else {
-      header("Location: ../index.php", true); 
+      header("Location: ../index.php", true);
     }
   }else {
     redirect('index.php');

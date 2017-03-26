@@ -1,6 +1,5 @@
 <?php
 	require('core/init.php');
-	require('helpers/system_helper.php');
 ?>
 <!DOCTYPE html>
 <html>
